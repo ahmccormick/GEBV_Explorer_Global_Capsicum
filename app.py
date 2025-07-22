@@ -52,7 +52,7 @@ with st.expander("Show all lines (unfiltered)"):
 st.write("---")
 st.subheader("Scatter plot of two traits")
 
-default_x = trait_cols.index("GEBV_fruitno_x") if "GEBV_fruitni_x" in trait_cols else 0
+default_x = trait_cols.index("GEBV_fruitno_x") if "GEBV_fruitno_x" in trait_cols else 0
 default_y = trait_cols.index("GEBV_yield_y") if "GEBV_yield_y" in trait_cols else 1
 
 col1, col2 = st.columns(2)
